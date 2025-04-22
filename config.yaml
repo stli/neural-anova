@@ -1,0 +1,11 @@
+num_neurons: 32
+num_layers: 3
+mode: "anova" # model, options: anova,default
+act_str: "sigmoid" # activation, options: sigmoid,swish,relu,rep
+verbose: True
+seed: 0
+dataset_id: 'ishigami' # datasets, options: piston,circuit,165,291,294
+l2output: 0 
+l2input: 0  
+noise_var: 0.
+max_epochs: 5000
