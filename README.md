@@ -19,10 +19,7 @@ Neural-ANOVA can be used to train interpretable models that provide transparent 
 
 ![Neural_ANOVA_airfoil.png](docs/Neural_ANOVA_airfoil.png)
 
-A more detailed description of the algorithmic approach can be found in the accompanying paper
-
-[Neural_ANOVA_draft.pdf](docs/Neural_ANOVA_draft.pdf)
-
+A more detailed description of the algorithmic approach can be found in the accompanying paper [PDF](https://arxiv.org/abs/2408.12319)
 
 ## Prerequisites
 
