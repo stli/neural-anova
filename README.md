@@ -6,12 +6,12 @@
 
 This repository contains the code to reproduce the results in the paper
 
-@article{limmer2024neural,
+`@article{limmer2024neural,
   title={Neural-ANOVA: Model Decomposition for Interpretable Machine Learning},
   author={Limmer, Steffen and Udluft, Steffen and Otte, Clemens},
   journal={arXiv preprint arXiv:2408.12319},
   year={2024}
-}
+}`
 
 ## Model Description
 
