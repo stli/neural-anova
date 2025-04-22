@@ -25,7 +25,7 @@ A more detailed description of the algorithmic approach can be found in the acco
 
     Optional but recommended: Docker Installed: Ensure Docker is installed on your system. You can download and install Docker from the official website.
     Python Docker Image: Ensure you have a Python Docker image available. You can pull one using the command: docker pull ghcr.io/nvidia/jax:jax-2024-04-09
-	Folder Extracted: Ensure you have extracted the archive, e.g. to the folder xyz/neural-anova
+	Folder Extracted: Ensure you have cloned the archive, e.g. to the folder xyz/neural-anova
 	
 ## Instructions
 
