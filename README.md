@@ -44,13 +44,13 @@ A more detailed description of the algorithmic approach can be found in the acco
 	5. Optional: Start the training for MLP baseline for the uci data
 		''' python main.py --multirun mode=default num_layers=3 num_neurons=32 act_str=sigmoid max_epochs=20000 dataset_id=165,291,294 hydra.sweep.dir=tabular_mlp_uci_study '''
 		
-	6. 	Optional: Start the training for N-ANOVA for the uci data
+	6. Optional: Start the training for N-ANOVA for the uci data
 		''' python main.py --multirun mode=anova num_layers=2 num_neurons=16 act_str=rep  max_epochs=20000 l2output=1e-2 l2input=1e-5 dataset_id=165,291,294 hydra.sweep.dir=tabular_anova_uci_study '''
 		
-	7. 	Optional: Start the ablation study on model size
+	7. Optional: Start the ablation study on model size
 		''' python main.py --multirun seed=0,1,2,3,4,5,6,7,8,9 mode=anova,default num_layers=3 num_neurons=8,16,24,32,48 act_str=relu,sigmoid,swish,rep max_epochs=20000 dataset_id=piston hydra.sweep.dir=ablation_model_size '''
 		
-	8. 	Optional: Start the ablation study on noise robustness
+	8. Optional: Start the ablation study on noise robustness
 		''' python main.py --multirun seed=0,1,2,3,4,5,6,7,8,9 mode=anova,default num_layers=3 num_neurons=32 act_str=relu,sigmoid,swish,rep noise_var=0.,1e-8,1e-7,1e-6,1e-5,1e-4,1e-3,1e-2,1e-1 max_epochs=20000 dataset_id=piston hydra.sweep.dir=ablation_training_noise '''
 
 	9. Check the results in the generated output folders
