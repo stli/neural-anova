@@ -1,5 +1,7 @@
 # Neural-ANOVA
 
+![Neural_ANOVA.png](docs/Neural_ANOVA.png)
+
 This repository contains the code to reproduce the results in the paper
 
 ## Model Description
