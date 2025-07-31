@@ -6,7 +6,7 @@ This repository contains the code to reproduce the results in the paper
 
 ## Model Description
 
-Neural-ANOVA can be used to train interpretable models that provide transparent interaction effects of all orders. Due to the construction, it is recommended to apply this model to moderate dimensions up to 10 and favorably on uniform training data. An illustration of up to second order interaction effects on the airfoil dataset is provided in the following.
+Neural-ANOVA can be used to train interpretable models that provide transparent interaction effects of all orders. Due to the construction, it is recommended to apply this model to moderate dimensions up to 10 and favorably on uniformly distributed training data. An illustration of up to second order interaction effects on the airfoil dataset is provided in the following.
 
 ![Neural_ANOVA_airfoil.png](docs/Neural_ANOVA_airfoil.png)
 
